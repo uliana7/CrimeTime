@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5bd135a7817606a4bbc0fc076ee15289
+guid: 02b8197dfe8b51641bb2d347af70fa0b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,13 +43,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.5016327, y: 0.5159643}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 1653, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -108,128 +108,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: archive_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 215
-        width: 267
-        height: 865
-      alignment: 9
-      pivot: {x: 0.49419492, y: 0.50163454}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9482eb743b9c0e74ebdf5c10e7ed6d87
-      internalID: 1915869646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: archive_1
-      rect:
-        serializedVersion: 2
-        x: 1652
-        y: 215
-        width: 268
-        height: 865
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29612b4db0d626040aeb6ddaa28880ea
-      internalID: 669967043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: archive_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 957
-        width: 1920
-        height: 123
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 790b9ff543e80094495d9c49105f947e
-      internalID: -886666406
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: archive_3
-      rect:
-        serializedVersion: 2
-        x: 266
-        y: 569
-        width: 1389
-        height: 388
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae56ca4b8ee377f41b25ebaf26b36e8f
-      internalID: -753204619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: archive_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 572
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1431362b9ee57042a10cffc24e0439e
-      internalID: -278280548
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      archive_0: 1915869646
-      archive_1: 669967043
-      archive_2: -886666406
-      archive_3: -753204619
-      archive_4: -278280548
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
