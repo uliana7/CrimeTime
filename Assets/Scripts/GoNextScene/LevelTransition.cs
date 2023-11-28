@@ -12,10 +12,13 @@ public class LevelTransition : MonoBehaviour
     public GameObject Character;
     public GameObject Door;
     public int scene;
+    public Vector3 positionPerson;
+    public VectorValue playerStorage;
+
     public void changeScene()
     {
+        playerStorage.initialValue = positionPerson;
         SceneManager.LoadScene(scene);
-
     }
 
     private void Update()

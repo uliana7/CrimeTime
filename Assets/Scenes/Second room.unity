@@ -354,6 +354,8 @@ MonoBehaviour:
   Character: {fileID: 976064823}
   Door: {fileID: 677446021}
   scene: 1
+  positionPerson: {x: 0, y: 0, z: 0}
+  playerStorage: {fileID: 0}
 --- !u!114 &677446025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -563,6 +565,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9207888329409543596, guid: 1ad6a03720d951145951ad0c4df008de, type: 3}
+      propertyPath: pos
+      value: 
+      objectReference: {fileID: 11400000, guid: f0a6f93f4c996fd4591c7d6df8be17bd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1696,6 +1702,8 @@ MonoBehaviour:
   Character: {fileID: 976064823}
   Door: {fileID: 2132154252}
   scene: 1
+  positionPerson: {x: 7.3119, y: -0.95, z: 0}
+  playerStorage: {fileID: 11400000, guid: f0a6f93f4c996fd4591c7d6df8be17bd, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

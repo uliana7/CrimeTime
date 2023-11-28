@@ -9,9 +9,11 @@ public class Movement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 direction;
     public Animator animator;
+    public VectorValue pos;
 
     void Start()
     {
+        transform.position = pos.initialValue;
         rb = GetComponent<Rigidbody2D>();
     }
 
