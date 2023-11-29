@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: book_case_content_0
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 807
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779026c845c25864ab6dead647cf6f6d
+      internalID: 684420769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_case_content_1
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 807
+        width: 24
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca3b3fa77e868643933591cebd90733
+      internalID: 712029749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_case_content_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 810
+        width: 97
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6013c60fab6a454384b55cb49dfc5b2
+      internalID: -520143075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_case_content_3
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 813
+        width: 144
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b0612ff1b823147a2ec46a0e6e25ba
+      internalID: -960716325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_case_content_4
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 809
+        width: 144
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4565843f1966044da31db1811744ea3
+      internalID: 2135533478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_case_content_5
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 740
+        width: 190
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5009cceeb59495e4eb6f89c552264eb3
+      internalID: -945609895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_case_content_6
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 748
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863426a45614c674680ec09e4c555b7b
+      internalID: -1130325689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_case_content_7
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 752
+        width: 84
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bee4b7c618ea248a0cc74d4630a9b2
+      internalID: 684260478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_case_content_8
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 683
+        width: 144
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9700ff4c3f42d4fbd7d666bb1e89c7
+      internalID: -1336923715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_case_content_9
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 690
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6736bf14417a80a468ce8a3e0db0a478
+      internalID: -2140266300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_case_content_10
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 676
+        width: 144
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fc44a90f6b8d7409dd6438e74e74a5
+      internalID: 1151622745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_case_content_11
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 674
+        width: 92
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455c0ba22ca568248b9c1dce2a65af41
+      internalID: -208996004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_case_content_12
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 679
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6856958a4eef26444a12a8b6af33d578
+      internalID: -1359405516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_case_content_14
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 620
+        width: 144
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8735b1ecffc83ad4e8892e47b4485e0c
+      internalID: -1195239430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_case_content_15
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 621
+        width: 144
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3b37806bf28b14fa4d1e6762ffca48
+      internalID: 1262487134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_case_content_16
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 623
+        width: 144
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4571d4e4659ed4cbac29181fec40d9
+      internalID: 1731175931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +468,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      book_case_content_0: 684420769
+      book_case_content_1: 712029749
+      book_case_content_10: 1151622745
+      book_case_content_11: -208996004
+      book_case_content_12: -1359405516
+      book_case_content_13: -1812196330
+      book_case_content_14: -1195239430
+      book_case_content_15: 1262487134
+      book_case_content_16: 1731175931
+      book_case_content_2: -520143075
+      book_case_content_3: -960716325
+      book_case_content_4: 2135533478
+      book_case_content_5: -945609895
+      book_case_content_6: -1130325689
+      book_case_content_7: 684260478
+      book_case_content_8: -1336923715
+      book_case_content_9: -2140266300
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

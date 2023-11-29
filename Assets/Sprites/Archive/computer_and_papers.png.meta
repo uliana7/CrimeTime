@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: computer_and_papers_0
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 84
+        width: 131
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da32d70846b8e8a459579fb197396483
+      internalID: 879404501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer_and_papers_1
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 250
+        width: 88
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d030153e0118f449a981f2a2f23fbe
+      internalID: 1344928216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer_and_papers_2
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 123
+        width: 127
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f9dd16ff31e814c9cb55764aee4547
+      internalID: 1382691777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer_and_papers_3
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 115
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7519fc83de63ee9498d54e7688546ae6
+      internalID: 370788883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer_and_papers_4
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 13
+        width: 146
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771d38fd9c6a1b64894300f916b1914e
+      internalID: 1020312251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +237,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      computer_and_papers_0: 879404501
+      computer_and_papers_1: 1344928216
+      computer_and_papers_2: 1382691777
+      computer_and_papers_3: 370788883
+      computer_and_papers_4: 1020312251
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
