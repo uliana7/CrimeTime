@@ -493,11 +493,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7830665321692322103, guid: 1ad6a03720d951145951ad0c4df008de, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.7
+      value: 7.56
       objectReference: {fileID: 0}
     - target: {fileID: 7830665321692322103, guid: 1ad6a03720d951145951ad0c4df008de, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.46
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 7830665321692322103, guid: 1ad6a03720d951145951ad0c4df008de, type: 3}
       propertyPath: m_LocalPosition.z
@@ -627,7 +627,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1032858379}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1726776485}
+        m_TargetAssemblyTypeName: ButtonHelper, Assembly-CSharp
+        m_MethodName: ShowButton2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1032858379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1551,8 +1563,8 @@ MonoBehaviour:
   Character: {fileID: 976064823}
   Door: {fileID: 1726776482}
   scene: 3
-  positionPerson: {x: 0, y: 0, z: 0}
-  playerStorage: {fileID: 0}
+  positionPerson: {x: -6.43, y: 0.23, z: 0}
+  playerStorage: {fileID: 11400000, guid: f0a6f93f4c996fd4591c7d6df8be17bd, type: 2}
 --- !u!114 &1726776485
 MonoBehaviour:
   m_ObjectHideFlags: 0

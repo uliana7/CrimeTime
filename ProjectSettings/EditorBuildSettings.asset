@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Second room.unity
     guid: 6a6aa1a8166f55f4787f2d9301473db4
+  - enabled: 1
+    path: Assets/Scenes/Prison.unity
+    guid: ff9d5297cfb5f434396e0d17c46014b3
   m_configObjects: {}

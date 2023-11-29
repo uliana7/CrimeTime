@@ -10,7 +10,7 @@ public class ButtonHelper : MonoBehaviour
 
     void Update()
     {
-        if (Vector3.Distance(Character.transform.position, Door.transform.position) <= 1 && Crossword.allWordsGuessed)
+        if (Vector3.Distance(Character.transform.position, Door.transform.position) <= 1 /*&& Crossword.allWordsGuessed*/)
         {
             ShowButton2();
         }
