@@ -5,8 +5,8 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public DialogueTrigger dt;
-    private bool isStartDialogue = true;
-    // Start is called before the first frame update
+    public static bool isStartMonologue = true;
+
     void Start()
     {
         Invoke(nameof(ShowDialog), 0.2f); 
@@ -14,10 +14,10 @@ public class Player : MonoBehaviour
 
     public void ShowDialog()
     {
-        if (isStartDialogue)
+        if (isStartMonologue)
         {
-            dt.StartDialogue_Trigger();
-            isStartDialogue = false;
+            dt.StartMonologue_Trigger();
+            isStartMonologue = false;
         }
     }
 }

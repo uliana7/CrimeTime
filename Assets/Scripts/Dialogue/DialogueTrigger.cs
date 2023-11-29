@@ -6,10 +6,12 @@ public class DialogueTrigger : MonoBehaviour
 {
     public DialogueManager dm;
     public GameObject Player;
+    public static bool isAlreadyShowEndCrossMonologue = false;
 
     [Header("Монологи игрока")]
-    public Dialogue StartDialogue;
-
+    public Dialogue StartMonologue;
+    public Dialogue StartCrosswordMonologue;
+    public Dialogue EndCrosswordMonologue;
 
     public void CantMove()
     {
@@ -28,10 +30,25 @@ public class DialogueTrigger : MonoBehaviour
     }
 
     //Монологи игрока
-    public void StartDialogue_Trigger()
+    public void StartMonologue_Trigger()
     {
-        dm.StartDialogue(StartDialogue);
+        dm.StartDialogue(StartMonologue);
         CantMove();
         InvokeRepeating(nameof(CanMove), 0, 1);
+    }
+
+    public void StartCrosswordMonologue_Trigger()
+    {
+        dm.StartDialogue(StartCrosswordMonologue);
+        CantMove();
+        InvokeRepeating(nameof(CanMove), 0, 1);
+    }
+
+    public void EndCrosswordMonologue_Trigger()
+    {
+        dm.StartDialogue(EndCrosswordMonologue);
+        CantMove();
+        InvokeRepeating(nameof(CanMove), 0, 1);
+        isAlreadyShowEndCrossMonologue = true;
     }
 }

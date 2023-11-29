@@ -7,14 +7,14 @@ using UnityEngine.UI;
 
 public class Crossword : MonoBehaviour
 {
-    [Header("Монолог перед заупском кроссворда")]
-    public Dialogue dialogue;
-
-    public DialogueManager dm;
+    public DialogueTrigger dt;
     public GameObject crossword;
     public GameObject helper;
     public GameObject MainCharacter;
     public GameObject Paper;
+
+    [Header("Монолог перед заупском кроссворда")]
+    public Dialogue StartMonologue;
 
     public static bool allWordsGuessed = false;
     private bool isCrosswordOn;
@@ -28,7 +28,7 @@ public class Crossword : MonoBehaviour
             {
                 if (isCrosswordOn)
                 {
-                        CrosswordOff();
+                    CrosswordOff();
                 }
                 else
                 {
@@ -42,6 +42,8 @@ public class Crossword : MonoBehaviour
     {
         if (allWordsGuessed)
         {
+            if (!DialogueTrigger.isAlreadyShowEndCrossMonologue)
+                dt.EndCrosswordMonologue_Trigger();
             crossword.SetActive(false);
             Time.timeScale = 1f;
             isCrosswordOn = false;
@@ -50,7 +52,8 @@ public class Crossword : MonoBehaviour
 
     public void CrosswordOn()
     {
-        dm.StartDialogue(dialogue);
+        if (!allWordsGuessed)
+            dt.StartCrosswordMonologue_Trigger();
         crossword.SetActive(true);
         Time.timeScale = 0f;
         isCrosswordOn = true;

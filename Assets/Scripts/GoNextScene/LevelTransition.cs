@@ -15,7 +15,7 @@ public class LevelTransition : MonoBehaviour
     public Vector3 positionPerson;
     public VectorValue playerStorage;
 
-    public void changeScene()
+    public void ChangeScene()
     {
         playerStorage.initialValue = positionPerson;
         SceneManager.LoadScene(scene);
@@ -25,7 +25,8 @@ public class LevelTransition : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && Vector3.Distance(Character.transform.position, Door.transform.position) <= 1 && Crossword.allWordsGuessed)
         {
-            changeScene();
+            Player.isStartMonologue = false;
+            ChangeScene();
         }
     }
 
