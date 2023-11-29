@@ -7,12 +7,18 @@ using UnityEngine.UI;
 
 public class Crossword : MonoBehaviour
 {
-    private bool isCrosswordOn;
+    [Header("Монолог перед заупском кроссворда")]
+    public Dialogue dialogue;
+
+    public DialogueManager dm;
     public GameObject crossword;
     public GameObject helper;
     public GameObject MainCharacter;
     public GameObject Paper;
+
     public static bool allWordsGuessed = false;
+    private bool isCrosswordOn;
+
 
     void Update()
     {
@@ -44,6 +50,7 @@ public class Crossword : MonoBehaviour
 
     public void CrosswordOn()
     {
+        dm.StartDialogue(dialogue);
         crossword.SetActive(true);
         Time.timeScale = 0f;
         isCrosswordOn = true;
