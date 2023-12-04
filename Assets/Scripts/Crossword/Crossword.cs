@@ -26,11 +26,7 @@ public class Crossword : MonoBehaviour
         {
             if (Input.GetKeyUp(KeyCode.E))
             {
-                if (isCrosswordOn)
-                {
-                    CrosswordOff();
-                }
-                else
+                if (!isCrosswordOn)
                 {
                     CrosswordOn();
                 }
@@ -40,19 +36,16 @@ public class Crossword : MonoBehaviour
 
     public void CrosswordOff()
     {
-        if (allWordsGuessed)
-        {
-            if (!DialogueTrigger.isAlreadyShowEndCrossMonologue)
-                dt.EndCrosswordMonologue_Trigger();
-            crossword.SetActive(false);
-            Time.timeScale = 1f;
-            isCrosswordOn = false;
-        }
+        if (allWordsGuessed && !DialogueTrigger.isAlreadyShowEndCrossMonologue)
+            dt.EndCrosswordMonologue_Trigger();
+        crossword.SetActive(false);
+        Time.timeScale = 1f;
+        isCrosswordOn = false;
     }
 
     public void CrosswordOn()
     {
-        if (!allWordsGuessed)
+        if (!allWordsGuessed && !DialogueTrigger.isAlreadyShowStartCrossMonologue)
             dt.StartCrosswordMonologue_Trigger();
         crossword.SetActive(true);
         Time.timeScale = 0f;

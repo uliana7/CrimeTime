@@ -6,10 +6,10 @@ using UnityEngine.UI;
 public class InputAnswer : MonoBehaviour
 {
     public static string Answer;
-    private Text inputText;
+    public static Text inputText;
 
     void Start()
-    {
+    {   
         inputText = GetComponent<Text>();
     }
 

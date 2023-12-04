@@ -26,6 +26,7 @@ public class QuestionManager : MonoBehaviour
 
     public static int PressButtonCounter;
     public Text Text;
+    public InputField inputField;
 
     void Start()
     {
@@ -98,12 +99,16 @@ public class QuestionManager : MonoBehaviour
         if (PressButtonCounter >= 16)
             return;
         PressButtonCounter++;
+        inputField.Select();
+        inputField.text = "";
     }
 
     public  void PressPreviosButton()
     {
         if (PressButtonCounter <= 0)
             return;
-        PressButtonCounter--;   
+        PressButtonCounter--;
+        inputField.Select();
+        inputField.text = "";
     }
 }

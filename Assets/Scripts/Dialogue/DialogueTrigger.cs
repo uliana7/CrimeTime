@@ -7,6 +7,7 @@ public class DialogueTrigger : MonoBehaviour
     public DialogueManager dm;
     public GameObject Player;
     public static bool isAlreadyShowEndCrossMonologue = false;
+    public static bool isAlreadyShowStartCrossMonologue = false;
 
     [Header("Монологи игрока")]
     public Dialogue StartMonologue;
@@ -42,6 +43,7 @@ public class DialogueTrigger : MonoBehaviour
         dm.StartDialogue(StartCrosswordMonologue);
         CantMove();
         InvokeRepeating(nameof(CanMove), 0, 1);
+        isAlreadyShowStartCrossMonologue = true;
     }
 
     public void EndCrosswordMonologue_Trigger()

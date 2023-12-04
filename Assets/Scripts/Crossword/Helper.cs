@@ -4,29 +4,39 @@ using UnityEngine;
 
 public class Helper : MonoBehaviour
 {
-    public GameObject Button;
+    public GameObject HelpMessage;
     public GameObject MainCharacter;
-    public GameObject Paper;
+    public GameObject Object;
+    public string typeObject;
 
     void Update()
     {
-        if (Vector3.Distance(MainCharacter.transform.position, Paper.transform.position) <= 1)
+        if (Vector3.Distance(MainCharacter.transform.position, Object.transform.position) <= 1)
         {
-            ShowButton();
+            if (typeObject == "door")
+                ShowDoorHelper();
+            else
+                ShowHelper();
         }
         else
         {
-            HideButton();
+            HideHelper();
         }
     }
 
-    public void ShowButton()
+    public void ShowHelper()
     {
-        Button.SetActive(true);
+        HelpMessage.SetActive(true);
     }
 
-    public void HideButton()
+    public void ShowDoorHelper()
     {
-        Button.SetActive(false);
+        if (Crossword.allWordsGuessed)
+            HelpMessage.SetActive(true);
+    }
+
+    public void HideHelper()
+    {
+        HelpMessage.SetActive(false);
     }
 }
