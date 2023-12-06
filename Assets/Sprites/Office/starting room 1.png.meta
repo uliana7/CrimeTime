@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ddb33c04fbcd6154286762a59350292d
+guid: 62a89b16f0c463a488f0c1072f347abd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: table_0
+      name: starting room_0
       rect:
         serializedVersion: 2
-        x: 449
-        y: 328
-        width: 919
-        height: 284
+        x: 268
+        y: 562
+        width: 1386
+        height: 403
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,8 +137,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92ff160fe47833e47957c7c9566d563b
-      internalID: 2086543117
+      spriteID: 81fd32079a39f914b914c7bbc8b5dd93
+      internalID: 283179266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting room_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 268
+        height: 872
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289ad8d49642f7a4fb51c4b3002dc9b6
+      internalID: -1124366776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting room_2
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 176
+        width: 266
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99ffe0391745e540b621f54d873cb34
+      internalID: 1773649216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting room_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 961
+        width: 1920
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0492456db37d6a046b993eb3129137d1
+      internalID: -151454508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting room_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 1919
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88abee185dca184cb3999c59166d8b9
+      internalID: 1316885041
       vertices: []
       indices: 
       edges: []
@@ -147,14 +231,18 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      table_0: 2086543117
+      starting room_0: 283179266
+      starting room_1: -1124366776
+      starting room_2: 1773649216
+      starting room_3: -151454508
+      starting room_4: 1316885041
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
