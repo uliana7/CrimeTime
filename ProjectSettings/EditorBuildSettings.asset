@@ -9,15 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: d5ff63023357f5c41a5a4b2e9f94f6ac
   - enabled: 1
-    path: Assets/Scenes/Office.unity
+    path: Assets/Scenes/Game.unity
     guid: b9af1199195d0d941bb36d1ee9373847
   - enabled: 1
-    path: Assets/Scenes/Archive.unity
+    path: Assets/Scenes/Second room.unity
     guid: 6a6aa1a8166f55f4787f2d9301473db4
   - enabled: 1
     path: Assets/Scenes/Prison.unity
     guid: ff9d5297cfb5f434396e0d17c46014b3
-  - enabled: 1
-    path: Assets/Scenes/Crossword.unity
-    guid: 484725362add6ac44aa99545806a2ad8
   m_configObjects: {}

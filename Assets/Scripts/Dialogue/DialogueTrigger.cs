@@ -41,6 +41,8 @@ public class DialogueTrigger : MonoBehaviour
     public void StartCrosswordMonologue_Trigger()
     {
         dm.StartDialogue(StartCrosswordMonologue);
+        CantMove();
+        InvokeRepeating(nameof(CanMove), 0, 1);
         isAlreadyShowStartCrossMonologue = true;
     }
 
