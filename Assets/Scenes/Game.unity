@@ -9339,12 +9339,12 @@ GameObject:
   - component: {fileID: 992137640}
   - component: {fileID: 992137639}
   m_Layer: 5
-  m_Name: Canvas (1)
+  m_Name: Crossword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &992137639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12556,7 +12556,7 @@ GameObject:
   - component: {fileID: 1497958643}
   - component: {fileID: 1497958645}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12677,8 +12677,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dt: {fileID: 248506818}
-  crossword: {fileID: 0}
-  helper: {fileID: 0}
+  crossword: {fileID: 992137638}
+  helper: {fileID: 171203405}
   MainCharacter: {fileID: 1270834020265316012}
   Paper: {fileID: 733061972}
   StartMonologue:
