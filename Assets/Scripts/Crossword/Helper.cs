@@ -11,7 +11,7 @@ public class Helper : MonoBehaviour
 
     void Update()
     {
-        if (Vector3.Distance(MainCharacter.transform.position, Object.transform.position) <= 1)
+        if (Vector2.Distance((Vector2)MainCharacter.transform.position, (Vector2)Object.transform.position) <= 1)
         {
             if (typeObject == "door")
                 ShowDoorHelper();
