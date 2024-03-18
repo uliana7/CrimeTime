@@ -31,7 +31,7 @@ public class Helper : MonoBehaviour
 
     public void ShowDoorHelper()
     {
-        if (Crossword.allWordsGuessed)
+        //if (Crossword.allWordsGuessed)
             HelpMessage.SetActive(true);
     }
 
