@@ -6649,8 +6649,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.0285, y: 2.0572}
-  m_SizeDelta: {x: 1124.8478, y: 120.5188}
+  m_AnchoredPosition: {x: 17, y: -17}
+  m_SizeDelta: {x: 804.93, y: 153.3587}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &758697771
 MonoBehaviour:
@@ -6674,10 +6674,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 100
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -14057,7 +14057,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1837359618
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14075,8 +14075,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 12, y: 105.37033}
-  m_SizeDelta: {x: 1178.2474, y: 147.9603}
+  m_AnchoredPosition: {x: 385, y: 181}
+  m_SizeDelta: {x: 861.9346, y: 163.1158}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1837359619
 MonoBehaviour:
@@ -15169,7 +15169,7 @@ MonoBehaviour:
   Character: {fileID: 1270834020265316012}
   Door: {fileID: 1924957657}
   scene: 2
-  positionPerson: {x: 0, y: 0, z: 0}
+  positionPerson: {x: -10, y: 0, z: 0}
   playerStorage: {fileID: 11400000, guid: f0a6f93f4c996fd4591c7d6df8be17bd, type: 2}
 --- !u!1 &1944089998
 GameObject:
