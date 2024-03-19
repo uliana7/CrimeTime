@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Helper : MonoBehaviour
 {
@@ -8,10 +9,16 @@ public class Helper : MonoBehaviour
     public GameObject MainCharacter;
     public GameObject Object;
     public string typeObject;
+    private double distanceValue;
 
     void Update()
     {
-        if (Vector2.Distance((Vector2)MainCharacter.transform.position, (Vector2)Object.transform.position) <= 1)
+        if (typeObject == "paper")
+            distanceValue = 1;
+        else
+            distanceValue = 3.5;
+
+        if (Vector2.Distance((Vector2)MainCharacter.transform.position, (Vector2)Object.transform.position) <= distanceValue)
         {
             if (typeObject == "door")
                 ShowDoorHelper();
@@ -32,7 +39,9 @@ public class Helper : MonoBehaviour
     public void ShowDoorHelper()
     {
         if (Crossword.allWordsGuessed)
+        {
             HelpMessage.SetActive(true);
+        }
     }
 
     public void HideHelper()

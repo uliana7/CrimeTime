@@ -126,12 +126,12 @@ TextureImporter:
       name: crosswordfon_0
       rect:
         serializedVersion: 2
-        x: 233
-        y: 0
-        width: 1375
-        height: 1080
+        x: 235
+        y: 2
+        width: 1370
+        height: 1077
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

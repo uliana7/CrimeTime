@@ -12,11 +12,12 @@ public class Crossword : MonoBehaviour
     public GameObject helper;
     public GameObject MainCharacter;
     public GameObject Paper;
+    public GameObject PauseButton;
 
     [Header("Монолог перед заупском кроссворда")]
     public Dialogue StartMonologue;
 
-    public static bool allWordsGuessed = false;
+    public static bool allWordsGuessed = true;
     private bool isCrosswordOn;
 
 
@@ -31,6 +32,13 @@ public class Crossword : MonoBehaviour
                     CrosswordOn();
                 }
             }
+            else if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                if (isCrosswordOn)
+                {
+                    CrosswordOff();
+                }    
+            }
         }
     }
 
@@ -39,6 +47,7 @@ public class Crossword : MonoBehaviour
         if (allWordsGuessed && !DialogueTrigger.isAlreadyShowEndCrossMonologue)
             dt.EndCrosswordMonologue_Trigger();
         crossword.SetActive(false);
+        PauseButton.SetActive(true);
         Time.timeScale = 1f;
         isCrosswordOn = false;
     }
@@ -48,6 +57,7 @@ public class Crossword : MonoBehaviour
         if (!allWordsGuessed && !DialogueTrigger.isAlreadyShowStartCrossMonologue)
             dt.StartCrosswordMonologue_Trigger();
         crossword.SetActive(true);
+        PauseButton.SetActive(false);
         Time.timeScale = 0f;
         isCrosswordOn = true;
     }
