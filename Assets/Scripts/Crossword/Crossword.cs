@@ -17,7 +17,7 @@ public class Crossword : MonoBehaviour
     [Header("Монолог перед заупском кроссворда")]
     public Dialogue StartMonologue;
 
-    public static bool allWordsGuessed = true;
+    public static bool allWordsGuessed = false;
     private bool isCrosswordOn;
 
 
