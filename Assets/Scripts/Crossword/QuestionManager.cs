@@ -92,6 +92,15 @@ public class QuestionManager : MonoBehaviour
             default:
                     break;
         }
+
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            PressNextButton();
+        }
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            PressPreviosButton();
+        }
     }
 
     public void PressNextButton()

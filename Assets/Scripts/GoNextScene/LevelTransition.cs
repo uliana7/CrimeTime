@@ -23,7 +23,7 @@ public class LevelTransition : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && Vector3.Distance(Character.transform.position, Door.transform.position) <= 1 && Crossword.allWordsGuessed)
+        if (Input.GetKeyDown(KeyCode.E) && Vector3.Distance(Character.transform.position, Door.transform.position) <= 3.5 && Crossword.allWordsGuessed)
         {
             Player.isStartMonologue = false;
             ChangeScene();

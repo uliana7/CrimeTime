@@ -22,10 +22,10 @@ public class ShowAnswer : MonoBehaviour
 
     private void Update()
     {
-        if (InputAnswer.Answer == answer && answerNumber == QuestionManager.PressButtonCounter)
+        if (InputAnswer.Answer == answer && answerNumber - 1 == QuestionManager.PressButtonCounter)
         {
             count++;
-            Text.text = InputAnswer.Answer.ToUpper()[letterNumber].ToString();
+            Text.text = InputAnswer.Answer.ToUpper()[letterNumber - 1].ToString();
             if (count == answer.Length)
                 guessedLettersCount++;
         }
