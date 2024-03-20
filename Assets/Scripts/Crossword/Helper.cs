@@ -38,11 +38,10 @@ public class Helper : MonoBehaviour
 
     public void ShowDoorHelper()
     {
-        HelpMessage.SetActive(true);/*
         if (Crossword.allWordsGuessed)
         {
             HelpMessage.SetActive(true);
-        }*/
+        }
     }
 
     public void HideHelper()
