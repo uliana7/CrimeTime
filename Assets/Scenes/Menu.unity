@@ -313,7 +313,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ef0a11a61319ea8418218045be66b012, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 870109a2c6cac5e4b8a128668ae84c99, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1377,7 +1377,7 @@ MonoBehaviour:
   Audio_On: {fileID: 520476164, guid: 9a0c68f0b869d094abc98df736eb2b50, type: 3}
   Audio_Off: {fileID: 84612113, guid: 9a0c68f0b869d094abc98df736eb2b50, type: 3}
   button_audio: {fileID: 506447455}
-  clip: {fileID: 8300000, guid: ef0a11a61319ea8418218045be66b012, type: 3}
+  clip: {fileID: 8300000, guid: 870109a2c6cac5e4b8a128668ae84c99, type: 3}
   audio: {fileID: 897532001}
 --- !u!1 &1196730482
 GameObject:
