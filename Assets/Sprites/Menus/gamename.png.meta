@@ -43,13 +43,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 0, y: 382, z: 0, w: 418}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -121,18 +121,59 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: gamename_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 393
+        width: 1716
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671bfdaaeaa393c489d33912f6e6160a
+      internalID: 1495384199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gamename_0: 1495384199
+      gamename_1: -1946014979
+      gamename_10: 2065985894
+      gamename_11: 237918148
+      gamename_12: 1128647451
+      gamename_13: 1297780759
+      gamename_14: -711590151
+      gamename_15: -580817651
+      gamename_16: -2085252134
+      gamename_17: -877976601
+      gamename_18: -1608065677
+      gamename_19: -799479071
+      gamename_2: -970501085
+      gamename_3: -1141421122
+      gamename_4: -1811757444
+      gamename_5: 1914988004
+      gamename_6: -1477061503
+      gamename_7: -466285516
+      gamename_8: -1104253056
+      gamename_9: -1747765638
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
