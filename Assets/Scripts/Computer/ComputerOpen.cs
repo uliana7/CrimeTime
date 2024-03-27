@@ -6,20 +6,32 @@ using UnityEngine.UI;
 public class OpenWindow : MonoBehaviour
 {
     public GameObject windowPanel;
+    public GameObject additionalPanel;
     public KeyCode openCloseKey;
+    public float delayTime = 3f;
+
+    private bool isOpen = false;
 
     void Update()
     {
         if (Input.GetKeyDown(openCloseKey))
         {
-            if (windowPanel.activeSelf)
+            isOpen = !isOpen;
+            windowPanel.SetActive(isOpen);
+
+            if (isOpen)
             {
-                windowPanel.SetActive(false);
-            }
-            else
-            {
-                windowPanel.SetActive(true);
+                StartCoroutine(OpenAdditionalPanel());
             }
         }
+    }
+
+    IEnumerator OpenAdditionalPanel()
+    {
+        yield return new WaitForSeconds(delayTime);
+
+        windowPanel.SetActive(false);
+
+        additionalPanel.SetActive(true);
     }
 }
