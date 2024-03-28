@@ -2,34 +2,32 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PuzzleComplete : MonoBehaviour
 {
     int fullElement;
     public static int curElement;
-    public GameObject allPuzzle;
-    public GameObject puzzlePanel;
-    public GameObject completePanel;
+    public Image allPuzzle;
+    public Image puzzlePanel;
+    public Image completePanel;
 
-
-    // Start is called before the first frame update
     void Start()
     {
         fullElement = allPuzzle.transform.childCount;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (fullElement == curElement)
         {
-            puzzlePanel.SetActive(false);
-            completePanel.SetActive(true);
+            puzzlePanel.gameObject.SetActive(false);
+            completePanel.gameObject.SetActive(true);
         }
     }
 
     public static void AddElement()
     {
-        curElement ++;
+        curElement++;
     }
 }
